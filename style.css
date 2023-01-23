@@ -21,10 +21,14 @@
     color: #FFFFFF;
 }
 
-#text {
+#text, .text {
     font-size: 75px;
     color: #FFFFFF;
     cursor: default;
+}
+
+.text {
+    text-align: center;
 }
 
 #userphrase {
@@ -58,4 +62,19 @@
     border: 2px solid;
     border-radius: 25px;
     color: #FFFFFF;
+    text-decoration: none;
+}
+
+.popup {
+    width: 50%;
+    height: 500px;
+    background-color: #010101;
+    z-index: 1;
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100px;
+    padding: 20px;
 }
