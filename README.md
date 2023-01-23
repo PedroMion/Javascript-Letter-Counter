@@ -7,4 +7,4 @@ This project receives a phrase from the user and give the number of letters or t
 
 ## 🧔 Website
 
-https://2024-javascript-countdown.netlify.app
+https://javascript-letter-counter.netlify.app
